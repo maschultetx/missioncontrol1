@@ -46,7 +46,7 @@ view: querymetrics {
   # average seconds from milliseconds
   measure: avg_execution_time_seconds {
     type: average
-    value_format:"#####.00;"
+    value_format:"#####.0;"
     #sql: 60 / ${executiontimeseconds} ;;
     # reversing the gage
     sql:  ${etime}/1000 ;;
