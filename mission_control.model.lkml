@@ -12,16 +12,16 @@ persist_with: mission_control_default_datagroup
 
 explore: querymetrics {}
 
-explore: query_list {}
-
 explore: demostatus {}
 
 explore: resources {}
-
-explore: resourcecost {}
 
 explore: testinfo {}
 
 explore: labels {}
 
 explore: priceperformance {}
+
+explore: donut {}
+
+explore: runtimeview {}

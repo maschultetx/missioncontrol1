@@ -25,6 +25,13 @@ view: priceperformance {
     sql: ${TABLE}.pp ;;
   }
 
+  measure: ppq {
+    type: average
+    value_format: "$###0.00"
+    sql: ${TABLE}.ppq ;;
+  }
+
+
   dimension: label {
     type:  string
         sql: ${TABLE}.label ;;
