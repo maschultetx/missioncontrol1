@@ -3,7 +3,7 @@ view: priceperformance {
 
   derived_table: {
 
-    sql: select pp, a.dbtype, label from priceperformance a, labels b where a.dbtype = b.dbtype ;;
+    sql: select pp, ppq, a.dbtype, label from priceperformance a, labels b where a.dbtype = b.dbtype ;;
 
   }
 
@@ -27,7 +27,7 @@ view: priceperformance {
 
   measure: ppq {
     type: average
-    value_format: "$###0.00"
+    value_format: "$###0.00000"
     sql: ${TABLE}.ppq ;;
   }
 
