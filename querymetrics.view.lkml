@@ -3,14 +3,14 @@ view: querymetrics {
 
   derived_table: {
 
-    sql: select qidx, a.dbtype, queryname, etime, source, label from querymetrics a, labels b where a.dbtype = b.dbtype ;;
+    sql: select qidx, a.target, queryname, etime, source, label from querymetrics a, labels b where a.target = b.target ;;
 
   }
 
 
-  dimension: dbtype {
+  dimension: target {
     type: string
-    sql: ${TABLE}.dbtype ;;
+    sql: ${TABLE}.target ;;
   }
 
   dimension: label {

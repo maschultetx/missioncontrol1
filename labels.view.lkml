@@ -1,9 +1,9 @@
 view: labels {
   sql_table_name: actian.labels ;;
 
-  dimension: dbtype {
+  dimension: target {
     type: string
-    sql: ${TABLE}.dbtype ;;
+    sql: ${TABLE}.target ;;
   }
 
   dimension: label {

@@ -1,9 +1,9 @@
 view: demostatus {
   sql_table_name: actian.demostatus ;;
 
-  dimension: dbtype {
+  dimension: target {
     type: string
-    sql: ${TABLE}.dbtype ;;
+    sql: ${TABLE}.target ;;
   }
 
   dimension: status {

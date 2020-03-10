@@ -3,7 +3,7 @@ view: priceperformance {
 
   derived_table: {
 
-    sql: select pp, ppq, a.dbtype, label from priceperformance a, labels b where a.dbtype = b.dbtype ;;
+    sql: select pp, ppq, a.target, label from priceperformance a, labels b where a.target = b.target ;;
 
   }
 
@@ -13,9 +13,9 @@ view: priceperformance {
     drill_fields: [detail*]
   }
 
-  dimension: dbtype {
+  dimension: target {
     type: string
-    sql: ${TABLE}.dbtype ;;
+    sql: ${TABLE}.target ;;
   }
 
 
@@ -38,6 +38,6 @@ view: priceperformance {
   }
 
   set: detail {
-    fields:  [ pp, dbtype, label]
+    fields:  [ pp, target, label]
   }
 }

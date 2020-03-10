@@ -1,9 +1,9 @@
 view: resources {
   sql_table_name: actian.resources ;;
 
-  dimension: dbtype {
+  dimension: target {
     type: string
-    sql: ${TABLE}.dbtype ;;
+    sql: ${TABLE}.target ;;
   }
 
   dimension: description {

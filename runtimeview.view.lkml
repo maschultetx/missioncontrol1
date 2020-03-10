@@ -2,9 +2,9 @@ view: runtimeview {
 
 sql_table_name: actian.runtimeview ;;
 
-   dimension: dbtype {
+   dimension: target {
      type: string
-     sql: ${TABLE}.dbtype ;;
+     sql: ${TABLE}.target ;;
    }
 
   dimension: status {
