@@ -25,3 +25,5 @@ explore: priceperformance {}
 explore: donut {}
 
 explore: runtimeview {}
+
+explore: usecase {}
