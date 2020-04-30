@@ -27,3 +27,5 @@ explore: donut {}
 explore: runtimeview {}
 
 explore: usecase {}
+
+explore: costview {}
