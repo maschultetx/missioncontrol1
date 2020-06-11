@@ -33,3 +33,5 @@ explore: costview {}
 explore: resultscostview {}
 
 explore: resultsruntimeview {}
+
+explore: winview {}
