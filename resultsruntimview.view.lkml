@@ -1,5 +1,5 @@
 view: resultsruntimeview {
-  sql_table_name: actian.resultscostview ;;
+  sql_table_name: actian.resultsruntimeview ;;
 
   dimension: target {
     type: string
