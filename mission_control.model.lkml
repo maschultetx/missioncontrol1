@@ -29,3 +29,7 @@ explore: runtimeview {}
 explore: usecase {}
 
 explore: costview {}
+
+explore: resultscostview {}
+
+explore: resultsruntimeview {}
