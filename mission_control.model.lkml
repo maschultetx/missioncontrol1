@@ -35,3 +35,5 @@ explore: resultscostview {}
 explore: resultsruntimeview {}
 
 explore: winview {}
+
+explore: messagetab {}
