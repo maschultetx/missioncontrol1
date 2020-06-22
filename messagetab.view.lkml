@@ -1,5 +1,5 @@
 view: messagetab {
-  sql_table_name: actian.messgetab ;;
+  sql_table_name: actian.messagetab ;;
 
   dimension: message {
     type: string
