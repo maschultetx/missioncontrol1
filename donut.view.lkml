@@ -7,9 +7,9 @@ view: donut {
 
 
 
-      select max(numqueries) - count(*) val, 'To Go' as status, target  from usecaseinfo,  querymetrics group by 3,2
+      select max(numqueries) - count(*) val, 'To Go' as status, target  from querysetinfo,  querymetrics group by 3,2
       union all
-      select count(*) val, 'Completed' as status, target  from usecaseinfo,  querymetrics group by 3,2
+      select count(*) val, 'Completed' as status, target  from querysetinfo,  querymetrics group by 3,2
 
       ;;
   }
