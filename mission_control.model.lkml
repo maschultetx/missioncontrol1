@@ -34,6 +34,10 @@ explore: resultscostview {}
 
 explore: resultsruntimeview {}
 
+explore: resultscostview_percent {}
+
+explore: resultsruntimeview_percent {}
+
 explore: winview {}
 
 explore: messagetab {}
