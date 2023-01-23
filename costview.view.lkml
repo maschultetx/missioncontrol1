@@ -8,7 +8,8 @@ view: costview {
 
 
   measure: cost{
-    type: number
+    #type: number
+    type: sum
     value_format: "$###0.00"
     sql: ${TABLE}.cost ;;
   }
